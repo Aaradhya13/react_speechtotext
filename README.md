@@ -106,7 +106,8 @@ On successful upload and transcription, the API will return a JSON response cont
 ### 🌐 Deploy Backend (Render, Heroku, etc.)
 1. Push the backend code to GitHub.
 2. Deploy on Render, Heroku, or any cloud platform.
-3. Set up the required environment variables.
+ 3. Set up the required environment variables.
+    
 4️. Update REACT_APP_API_BASE_URL in the frontend .env file with the deployed backend URL.
 
 ### 🎨 Deploy Frontend (Netlify, Vercel, etc.)
