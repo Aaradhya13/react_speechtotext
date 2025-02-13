@@ -112,3 +112,9 @@ On successful upload and transcription, the API will return a JSON response cont
 1. Push the frontend code to GitHub.
 2. Deploy on Netlify or Vercel.
  3. Update the backend API URL in .env before deploying.
+
+## 🎥 Demo Video  
+
+Check out the working demo of the Speech-to-Text application here:  
+🔗 [Watch the Video](https://drive.google.com/file/d/1Rg72EbNLMI-nCoZYVhebneBFkOpk7xqc/view?usp=sharing)  
+
