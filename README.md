@@ -109,6 +109,6 @@ On successful upload and transcription, the API will return a JSON response cont
  3. Set up the required environment variables and update REACT_APP_API_BASE_URL in the frontend .env file with the deployed backend URL.
 
 ### 🎨 Deploy Frontend (Netlify, Vercel, etc.)
-1️. Push the frontend code to GitHub.
-2️. Deploy on Netlify or Vercel.
-3️. Update the backend API URL in .env before deploying.
+1. Push the frontend code to GitHub.
+2. Deploy on Netlify or Vercel.
+ 3. Update the backend API URL in .env before deploying.
