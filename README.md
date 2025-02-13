@@ -18,7 +18,7 @@ This project is a Speech-to-Text web application that allows users to upload or 
 🔗 **[Speech-to-Text API](https://speechtotext-1.onrender.com)**  
 
 ### 🎨 Frontend  
-- Hosted on Netlify or Vercel (https://speechtotextas.vercel.app/)  
+- Hosted on Vercel (https://speechtotextas.vercel.app/)  
 
 ## 📌 Features  
 - 🎵 Upload audio files for transcription  
