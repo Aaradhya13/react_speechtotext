@@ -3,7 +3,7 @@
 This project is a Speech-to-Text web application that allows users to upload or record audio and receive a transcribed text response. It consists of:  
 
 ## 🖥️ Frontend  
-- Built with React for an interactive UI.  
+- Built with React and Tailwind CSS for an interactive UI.  
 
 ## 🔧 Backend  
 - Built using Express, MongoDB, and Multer for file uploads.  
