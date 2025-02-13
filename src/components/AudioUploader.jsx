@@ -2,6 +2,8 @@ import React, { useState, useRef } from "react";
 import axios from "axios";
 import { FaMicrophone, FaStop, FaUpload, FaArrowLeft } from "react-icons/fa";
 
+const API_BASE_URL = import.meta.env.VITE_API_BASE_URL; // Using environment variable
+
 const AudioUploader = ({ onBack }) => {
   const [audioFile, setAudioFile] = useState(null);
   const [transcription, setTranscription] = useState("");
@@ -64,7 +66,7 @@ const AudioUploader = ({ onBack }) => {
     try {
       setLoading(true);
       setTranscription("");
-      const response = await axios.post("http://localhost:5000/upload", formData);
+      const response = await axios.post(`${API_BASE_URL}/upload`, formData);
       setTranscription(response.data.transcription);
     } catch (error) {
       console.error("Error uploading file:", error);
