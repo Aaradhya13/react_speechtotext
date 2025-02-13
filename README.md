@@ -35,3 +35,20 @@ This project is a Speech-to-Text web application that allows users to upload or 
 ```bash
 git clone https://github.com/your-repo/speech-to-text.git
 cd speech-to-text/backend
+
+#### 2️⃣ Install Dependencies
+```bash
+npm install
+
+#### 3️⃣ Create a .env file
+```bash
+PORT=5000
+MONGO_URI=your_mongodb_connection_string
+JWT_SECRET=your_jwt_secret
+DEEPGRAM_API_KEY=your_deepgram_api_key
+
+#### 4️⃣ Start the Server
+```bash
+npm start
+
+Backend will run on: http://localhost:5000
