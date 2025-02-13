@@ -33,8 +33,8 @@ This project is a Speech-to-Text web application that allows users to upload or 
 
 #### 1️⃣ Clone the Repository  
 ```bash
-git clone https://github.com/your-repo/speech-to-text.git
-cd speech-to-text/backend
+git clone https://github.com/Aaradhya13/react_speechtotext.git
+cd react_speechtotext/backend
 ```
 
 #### 2️⃣ Install Dependencies
